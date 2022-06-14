@@ -25,7 +25,7 @@
   "wd3": "Catalogue of titles created for Shang Shung Publications. Implemented in PHP, JS and MySQL also provides the ability to create in real-time (according to current stock) a downloadable PDF version of the catalogue in two currencies.",
   "wd4": "UI for sales system using interchangeable themes for dark and clear modes, graphics and datatables for users, orders and earnings, among others. React with Tailwind is used and support for multi-language is provided.",
   "wd5": "This app implements several endpoints to access a Mongo database containing info about music albums and three kind of users (admin, moderator and standard). The UI is built on React and Tailwind and search on artist, time periods and music format is supported.",
-  "wd6": "Booking clone UI created in React with Tailwind implementing a powerful search engine. Users database and auth use MongoDB. Multi-language support is provided.",
+  "wd6": "Booking clone created in React with Tailwind implementing a powerful search engine. Users database and auth use MongoDB. Multi-language support is provided.",
   "name": "Name",
   "subject": "Subject",
   "message": "Message",
