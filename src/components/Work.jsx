@@ -63,7 +63,7 @@ const Work = () => {
           />
           <WorkItem
             imgLink={mymusic}
-            workType={"React/Node/Mongo DB"}
+            workType={"React/Node/Mongo/Heroku"}
             workDesc={t("wd5")}
             firstButton={"Demo"}
             secondButton={"Website"}
@@ -72,7 +72,7 @@ const Work = () => {
           />
           <WorkItem
             imgLink={Booking}
-            workType={"React/MongoDB"}
+            workType={"React/Mongo/Heroku"}
             workDesc={t("wd6")}
             firstButton={t("code")}
             secondButton={"Website"}
