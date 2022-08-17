@@ -36,7 +36,7 @@ const Work = () => {
           />
           <WorkItem
             imgLink={CoinMarketCap}
-            workType={"Solidity/React/Tailwind"}
+            workType={"Solidity/React/Heroku"}
             workDesc={t("wd2")}
             firstButton={t("code")}
             secondButton={"Website"}
@@ -63,7 +63,7 @@ const Work = () => {
           />
           <WorkItem
             imgLink={mymusic}
-            workType={"React/Node/Mongo/Heroku"}
+            workType={"React/Node/Heroku"}
             workDesc={t("wd5")}
             firstButton={"Demo"}
             secondButton={"Website"}

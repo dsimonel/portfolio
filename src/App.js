@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Work from "./components/Work-exp";
 import i18n from "./i18n";
 import LocaleContext from "./LocaleContext";
 
