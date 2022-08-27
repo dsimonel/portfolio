@@ -76,16 +76,6 @@ const Work = () => {
       href1: "https://github.com/dsimonel/mybooking-ui-react",
       href2: "https://dsimonel.github.io/mybooking-react/",
     },
-    // {
-    //   id: 6,
-    //   imgLink: fpmt,
-    //   workType: t("phpapp"),
-    //   workDesc: t("wd1"),
-    //   firstButton: "Demo",
-    //   secondButton: "Website",
-    //   href1: "https://youtu.be/7oPGP7NI-1o",
-    //   href2: "https://tibetan.ueuo.com/fpmt/guest.php",
-    // },
   ];
 
   const [page, setPage] = useState(WorkItemData);
