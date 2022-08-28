@@ -4,7 +4,8 @@ import { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import LocaleContext from "../LocaleContext";
 import i18n from "../i18n";
-import cv from "../assets/Academic_CV_DS.pdf";
+import academic from "../assets/Academic_CV_DS.pdf";
+import cv from "../assets/CV_DS.pdf";
 import {
   FaBars,
   FaTimes,
@@ -14,7 +15,8 @@ import {
   FaSkype,
 } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsFillPersonPlusFill } from "react-icons/bs";
+import { HiAcademicCap } from "react-icons/hi";
 import Logo from "../assets/daniel-6.png";
 import { Link } from "react-scroll";
 
@@ -170,13 +172,22 @@ const Navbar = () => {
               Skype <FaSkype size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#cf7724]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#38356e]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href={cv}
               rel="noreferrer"
               target="_blank"            >
-              {t('resume')} <BsFillPersonLinesFill size={30} />
+              {'Curriculum'} <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#cf7724]'>
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href={academic}
+              rel="noreferrer"
+              target="_blank"            >
+              {t('resume')} <HiAcademicCap size={30} />
             </a>
           </li>
         </ul>
