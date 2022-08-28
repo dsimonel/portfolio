@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.15e2d579.css",
-    "main.js": "./static/js/main.14cb3951.js",
+    "main.css": "./static/css/main.f73fc381.css",
+    "main.js": "./static/js/main.d1512468.js",
     "static/media/daniel-6.png": "./static/media/daniel-6.b1b8d2ff485bcdcfd402.png",
-    "static/media/Academic_CV_DS.pdf": "./static/media/Academic_CV_DS.3f81ae07614cc870271b.pdf",
+    "static/media/Academic_CV_DS.pdf": "./static/media/Academic_CV_DS.a3672bf0d2980ee0d939.pdf",
     "static/media/mymusic-4.jpg": "./static/media/mymusic-4.4e339a463e44e393afdf.jpg",
     "static/media/TP.jpg": "./static/media/TP.50e858bcdec7a1fde484.jpg",
     "static/media/Booking.jpg": "./static/media/Booking.c1180916492b8157a7ba.jpg",
+    "static/media/CV_DS.pdf": "./static/media/CV_DS.472834e07a47e050a69a.pdf",
     "static/media/fpmt.jpg": "./static/media/fpmt.a63957c2ffa22d221ad0.jpg",
     "static/media/CMC-2.jpg": "./static/media/CMC-2.d8650b38c939227a9768.jpg",
     "static/media/myadmin.jpg": "./static/media/myadmin.d2b732c1edca8caccdb1.jpg",
@@ -34,11 +35,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "./static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "./index.html",
     "static/media/getFetch.cjs": "./static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.15e2d579.css.map": "./static/css/main.15e2d579.css.map",
-    "main.14cb3951.js.map": "./static/js/main.14cb3951.js.map"
+    "main.f73fc381.css.map": "./static/css/main.f73fc381.css.map",
+    "main.d1512468.js.map": "./static/js/main.d1512468.js.map"
   },
   "entrypoints": [
-    "static/css/main.15e2d579.css",
-    "static/js/main.14cb3951.js"
+    "static/css/main.f73fc381.css",
+    "static/js/main.d1512468.js"
   ]
 }
