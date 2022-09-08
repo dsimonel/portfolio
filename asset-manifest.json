@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.f73fc381.css",
-    "main.js": "./static/js/main.9a70604a.js",
+    "main.js": "./static/js/main.8df3e212.js",
     "static/media/daniel-6.png": "./static/media/daniel-6.b1b8d2ff485bcdcfd402.png",
     "static/media/Academic_CV_DS.pdf": "./static/media/Academic_CV_DS.a3672bf0d2980ee0d939.pdf",
     "static/media/mymusic-4.jpg": "./static/media/mymusic-4.4e339a463e44e393afdf.jpg",
@@ -38,10 +38,10 @@
     "index.html": "./index.html",
     "static/media/getFetch.cjs": "./static/media/getFetch.c780682470504fffbd04.cjs",
     "main.f73fc381.css.map": "./static/css/main.f73fc381.css.map",
-    "main.9a70604a.js.map": "./static/js/main.9a70604a.js.map"
+    "main.8df3e212.js.map": "./static/js/main.8df3e212.js.map"
   },
   "entrypoints": [
     "static/css/main.f73fc381.css",
-    "static/js/main.9a70604a.js"
+    "static/js/main.8df3e212.js"
   ]
 }
