@@ -101,7 +101,8 @@ const Work = () => {
   ]),[t]);
 
   const [page, setPage] = useState(WorkItemData);
-  const quantPages = Math.ceil(WorkItemData.length / 3);
+  const itemsxpage = 2;
+  const quantPages = Math.ceil(WorkItemData.length / itemsxpage);
   const handleLeft = () => {
     setNumPage(numPage - (1 % quantPages));
     // setFirstPage(true);
@@ -114,15 +115,15 @@ const Work = () => {
 
   useEffect(() => {
     if (numPage === quantPages - 1) {
-	  setPage(WorkItemData.slice(numPage * 3));
+	  setPage(WorkItemData.slice(numPage * itemsxpage));
     } else {
-      setPage(WorkItemData.slice(numPage * 3, numPage * 3 + 3));
+      setPage(WorkItemData.slice(numPage * itemsxpage, numPage * itemsxpage + itemsxpage));
     }
   }, [numPage, quantPages, WorkItemData]);
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
-      <div className="max-w-[1300px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1150px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
             {t("work")}
@@ -131,7 +132,7 @@ const Work = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
           {/* Grid Items */}
           {page.map((wi) => {
             console.log(wi);

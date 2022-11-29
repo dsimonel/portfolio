@@ -10,14 +10,14 @@ const WorkItem = (props) => {
   return (
     <div
       style={{ backgroundImage: `url(${imgLink})`, backgroundSize: '100% 100%'}}
-      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-full"
+      className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div md:h-96 sm:h-10 w-full"
     >
       {/* Hover Effects */}
       <div className="opacity-0 group-hover:opacity-100">
         <div className="text-2xl font-bold text-orange-700 text-center pt-5">
           {workType}
         </div>
-        <p className="mt-1 pl-12 pr-8 text-sm font-bold text-orange-700">
+        <p className="mt-1 pl-12 pr-8 text-sm font-bold text-orange-700 h-32">
           {workDesc}
         </p>
         <div className="mb-0 text-center">
