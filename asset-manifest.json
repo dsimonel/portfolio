@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.62a74355.css",
-    "main.js": "./static/js/main.9ec8c00b.js",
+    "main.css": "./static/css/main.219745a6.css",
+    "main.js": "./static/js/main.4c0146f2.js",
     "static/media/daniel-6.png": "./static/media/daniel-6.b1b8d2ff485bcdcfd402.png",
     "static/media/Academic_CV_DS.pdf": "./static/media/Academic_CV_DS.a3672bf0d2980ee0d939.pdf",
     "static/media/mymusic-4.jpg": "./static/media/mymusic-4.4e339a463e44e393afdf.jpg",
@@ -41,11 +41,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "./static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "./index.html",
     "static/media/getFetch.cjs": "./static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.62a74355.css.map": "./static/css/main.62a74355.css.map",
-    "main.9ec8c00b.js.map": "./static/js/main.9ec8c00b.js.map"
+    "main.219745a6.css.map": "./static/css/main.219745a6.css.map",
+    "main.4c0146f2.js.map": "./static/js/main.4c0146f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.62a74355.css",
-    "static/js/main.9ec8c00b.js"
+    "static/css/main.219745a6.css",
+    "static/js/main.4c0146f2.js"
   ]
 }
