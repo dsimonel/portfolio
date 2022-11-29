@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.f73fc381.css",
-    "main.js": "./static/js/main.d9f68275.js",
+    "main.css": "./static/css/main.62a74355.css",
+    "main.js": "./static/js/main.3bdb8074.js",
     "static/media/daniel-6.png": "./static/media/daniel-6.b1b8d2ff485bcdcfd402.png",
     "static/media/Academic_CV_DS.pdf": "./static/media/Academic_CV_DS.a3672bf0d2980ee0d939.pdf",
     "static/media/mymusic-4.jpg": "./static/media/mymusic-4.4e339a463e44e393afdf.jpg",
@@ -13,8 +13,10 @@
     "static/media/CMC-2.jpg": "./static/media/CMC-2.d8650b38c939227a9768.jpg",
     "static/media/cryptobooks.jpg": "./static/media/cryptobooks.12a4ccd07556cf653c1d.jpg",
     "static/media/myadmin.jpg": "./static/media/myadmin.d2b732c1edca8caccdb1.jpg",
+    "static/media/raspi.png": "./static/media/raspi.c53de8945bd7c164092c.png",
     "static/media/work-background.jpg": "./static/media/work-background.041d378e88ae8e26f817.jpg",
     "static/media/mysql.png": "./static/media/mysql.f9dcca7050d0de6ab643.png",
+    "static/media/xilinx.png": "./static/media/xilinx.ad3f2e352f715f088b94.png",
     "static/media/angular.png": "./static/media/angular.0d88fe5f9ee5b5733327.png",
     "static/media/delphi.png": "./static/media/delphi.fbe82b6d2870c4532509.png",
     "static/media/react.png": "./static/media/react.0cf951a69d8e58f83f9d.png",
@@ -32,16 +34,18 @@
     "static/media/css.png": "./static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/CoolveticaRg-Regular.woff": "./static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/flutter.png": "./static/media/flutter.074743969547c814fda2.png",
+    "static/media/docker.png": "./static/media/docker.6d8e9eeac212d07a06e2.png",
+    "static/media/gcloud.png": "./static/media/gcloud.bb9300c1a14230fa1a0c.png",
     "static/media/php.png": "./static/media/php.06bc4043f105daaf2137.png",
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/CoolveticaRg-Regular.woff2": "./static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "./index.html",
     "static/media/getFetch.cjs": "./static/media/getFetch.c780682470504fffbd04.cjs",
-    "main.f73fc381.css.map": "./static/css/main.f73fc381.css.map",
-    "main.d9f68275.js.map": "./static/js/main.d9f68275.js.map"
+    "main.62a74355.css.map": "./static/css/main.62a74355.css.map",
+    "main.3bdb8074.js.map": "./static/js/main.3bdb8074.js.map"
   },
   "entrypoints": [
-    "static/css/main.f73fc381.css",
-    "static/js/main.d9f68275.js"
+    "static/css/main.62a74355.css",
+    "static/js/main.3bdb8074.js"
   ]
 }
