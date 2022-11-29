@@ -63,12 +63,21 @@ const Work = () => {
           />
           <WorkItem
             imgLink={mymusic}
-            workType={"React/Node/Heroku"}
+            workType={"React/Node/Docker/Google Cloud"}
             workDesc={t("wd5")}
             firstButton={"Demo"}
             secondButton={"Website"}
             href1={"https://www.youtube.com/watch?v=qN_JH_10i6k&t=58s"}
             href2={"http://danielsimonelli.orgfree.com/mymusic/index.html"}
+          />
+          <WorkItem
+            imgLink={Booking}
+            workType={"React/Mongo/Heroku"}
+            workDesc={t("wd6")}
+            firstButton={t("code")}
+            secondButton={"Website"}
+            href1={"https://github.com/dsimonel/mybooking-ui-react"}
+            href2={"https://dsimonel.github.io/mybooking-react/"}
           />
           <WorkItem
             imgLink={Booking}

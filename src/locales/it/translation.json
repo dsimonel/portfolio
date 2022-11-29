@@ -25,6 +25,8 @@
   "wd4": "UI per un sistema di vendita che utilizza temi modificabili per il giorno e la notte, grafici e tabelle dati per utenti, ordini e guadagni, tra gli altri. La programmazione è stata fatta in React con Tailwind e si fornisce il supporto per il multilingua.",
   "wd5": "Questa app implementa diversi endpoint per accedere a un database Mongo contenente informazioni su album musicali e tre tipi di utenti (amministratore, moderatore e standard). La UI è basata su React e Tailwind ed è supportata la ricerca per artista, periodi di tempo e formato.",
   "wd6": "App clone di Booking creata in React che implementa ricerche e prenotazioni tramite una Api REST creata in Node. Il database e l'autenticazione degli utenti utilizzano Mongo DB. Viene fornito il supporto multilingue.",
+  "wd7": "App di chat, simile a whatsapp, creata con React utilizzando servizi di autenticazione, archiviazione e database di Google Firebase.",
+  "wd8": "App clone della lista d'attesa di CryptoBooks, creata con React e Firebase, ospitata in Google Cloud.",
   "name": "Nome",
   "subject": "Soggetto",
   "message": "Messagio",

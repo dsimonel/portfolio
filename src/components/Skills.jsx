@@ -10,10 +10,14 @@ import GitHub from "../assets/github.png";
 import Mongo from "../assets/mongo.png";
 import MySQL from "../assets/mysql.png";
 import PHP from "../assets/php.png";
+import Docker from "../assets/docker.png";
+import GCloud from "../assets/gcloud.png";
 import Solidity from "../assets/solidity.png";
 import Delphi from "../assets/delphi.png";
 import Java from "../assets/java.png";
 import Flutter from "../assets/flutter.png";
+import Raspi from "../assets/raspi.png";
+import Xilinx from "../assets/xilinx.png";
 import MatLab from "../assets/matlab.png";
 import VHDL from "../assets/VHDL.png";
 
@@ -34,7 +38,7 @@ const Skills = () => {
           <p className="py-4 text-xl">{t("tech")}</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>
@@ -68,14 +72,6 @@ const Skills = () => {
             <p className="my-4">MySQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Solidity} alt="HTML icon" />
-            <p className="my-4">Solidity</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Flutter} alt="HTML icon" />
-            <p className="my-4">Flutter</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
             <p className="my-4">GitHub</p>
           </div>
@@ -84,12 +80,36 @@ const Skills = () => {
             <p className="my-4">Angular</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Docker} alt="HTML icon" />
+            <p className="my-4">Docker</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={GCloud} alt="HTML icon" />
+            <p className="my-4">Google Cloud</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Solidity} alt="HTML icon" />
+            <p className="my-4">Solidity</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Flutter} alt="HTML icon" />
+            <p className="my-4">Flutter</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Java} alt="HTML icon" />
             <p className="my-4">Java</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Delphi} alt="HTML icon" />
             <p className="my-4">Delphi</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Raspi} alt="HTML icon" />
+            <p className="my-4">RaspberryPi</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Xilinx} alt="HTML icon" />
+            <p className="my-4">Xilinx</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={MatLab} alt="HTML icon" />

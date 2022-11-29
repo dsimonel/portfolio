@@ -15,7 +15,7 @@ import {
   FaSkype,
 } from "react-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill, BsFillPersonPlusFill } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiAcademicCap } from "react-icons/hi";
 import Logo from "../assets/daniel-6.png";
 import { Link } from "react-scroll";
@@ -48,7 +48,7 @@ const Navbar = () => {
       <div>
         <img src={Logo} alt="Logo" style={{ width: "60px" }} />
       </div>
-{/* <ScreenSize /> */}
+      {/* <ScreenSize /> */}
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
@@ -76,8 +76,11 @@ const Navbar = () => {
             {t("contact")}
           </Link>
         </li>
-        <button className="navButton bg-white text-black font-semibold rounded-lg w-[45px]" onClick={() => traducir()}>
-        &nbsp;{t("language")}&nbsp;
+        <button
+          className="navButton bg-white text-black font-semibold rounded-lg w-[45px]"
+          onClick={() => traducir()}
+        >
+          &nbsp;{t("language")}&nbsp;
         </button>
       </ul>
 
@@ -172,22 +175,24 @@ const Navbar = () => {
               Skype <FaSkype size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#38356e]'>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#38356e]">
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className="flex justify-between items-center w-full text-gray-300"
               href={cv}
               rel="noreferrer"
-              target="_blank"            >
-              {'Curriculum'} <BsFillPersonLinesFill size={30} />
+              target="_blank"
+            >
+              {"Curriculum"} <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#cf7724]'>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#cf7724]">
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className="flex justify-between items-center w-full text-gray-300"
               href={academic}
               rel="noreferrer"
-              target="_blank"            >
-              {t('resume')} <HiAcademicCap size={30} />
+              target="_blank"
+            >
+              {t("resume")} <HiAcademicCap size={30} />
             </a>
           </li>
         </ul>

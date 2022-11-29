@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import WorkItem from "./WorkItem";
 import fpmt from "../assets/fpmt.jpg";
 import Booking from "../assets/Booking.jpg";
@@ -9,13 +9,15 @@ import myadmin from "../assets/myadmin.jpg";
 import CoinMarketCap from "../assets/CMC-2.jpg";
 import BackArrow from "../assets/left-arrow.png";
 import ForwardArrow from "../assets/right-arrow.png";
+import Guasap from "../assets/guasap.jpg";
+import CryptoBooks from "../assets/cryptobooks.jpg";
 import { useTranslation } from "react-i18next";
 
 const Work = () => {
   const [numPage, setNumPage] = useState(0);
   const { t } = useTranslation();
 
-  const WorkItemData = [
+  const WorkItemData = useMemo(() => ([
     {
       id: 0,
       imgLink: fpmt,
@@ -27,14 +29,14 @@ const Work = () => {
       href2: "https://tibetan.ueuo.com/fpmt/guest.php",
     },
     {
-      id: 1,
-      imgLink: CoinMarketCap,
-      workType: "Solidity/React/Heroku",
-      workDesc: t("wd2"),
+      id: 6,
+      imgLink: Guasap,
+      workType: "React/Firebase",
+      workDesc: t("wd7"),
       firstButton: t("code"),
       secondButton: "Website",
-      href1: "https://github.com/dsimonel/web3_coinmarketcap",
-      href2: "http://danielsimonelli.orgfree.com/cmc/index.html",
+      href1: "https://github.com/dsimonel/guasap",
+      href2: "https://dsimonel.github.io/guasap/",
     },
     {
       id: 2,
@@ -45,6 +47,16 @@ const Work = () => {
       secondButton: "Website",
       href1: "#",
       href2: "http://tashipedeb.ueuo.com/index.php",
+    },
+    {
+      id: 7,
+      imgLink: CryptoBooks,
+      workType: "React/Firebase/Google Cloud",
+      workDesc: t("wd8"),
+      firstButton: "Code",
+      secondButton: "Website",
+      href1: "#",
+      href2: "https://cryptobooks-clone.rj.r.appspot.com/",
     },
     {
       id: 3,
@@ -59,7 +71,7 @@ const Work = () => {
     {
       id: 4,
       imgLink: mymusic,
-      workType: "React/Node/Heroku",
+      workType: "React/Docker/Google Cloud",
       workDesc: t("wd5"),
       firstButton: "Demo",
       secondButton: "Website",
@@ -76,7 +88,17 @@ const Work = () => {
       href1: "https://github.com/dsimonel/mybooking-ui-react",
       href2: "https://dsimonel.github.io/mybooking-react/",
     },
-  ];
+    {
+      id: 1,
+      imgLink: CoinMarketCap,
+      workType: "Solidity/React/Heroku",
+      workDesc: t("wd2"),
+      firstButton: t("code"),
+      secondButton: "Website",
+      href1: "https://github.com/dsimonel/web3_coinmarketcap",
+      href2: "http://danielsimonelli.orgfree.com/cmc/index.html",
+    },
+  ]),[t]);
 
   const [page, setPage] = useState(WorkItemData);
   const quantPages = Math.ceil(WorkItemData.length / 3);
@@ -91,13 +113,13 @@ const Work = () => {
   };
 
   useEffect(() => {
-    if (numPage == quantPages - 1) {
+    if (numPage === quantPages - 1) {
       let last = WorkItemData.pop();
       setPage(WorkItemData.slice(numPage * 3).concat(last));
     } else {
       setPage(WorkItemData.slice(numPage * 3, numPage * 3 + 3));
     }
-  }, [numPage]);
+  }, [numPage, quantPages, WorkItemData]);
 
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -135,6 +157,7 @@ const Work = () => {
               onClick={handleLeft}
               style={{ display: numPage === 0 ? "none" : "block" }}
               // style={{ cursor: "default" }}
+              alt=""
               width="30px"
               height="30px"
             />
@@ -144,6 +167,7 @@ const Work = () => {
               src={ForwardArrow}
               onClick={handleRight}
               style={{ display: numPage === quantPages - 1 ? "none" : "block" }}
+              alt=""
               width="30px"
               height="30px"
             />
