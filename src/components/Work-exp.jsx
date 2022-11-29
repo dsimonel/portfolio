@@ -114,8 +114,7 @@ const Work = () => {
 
   useEffect(() => {
     if (numPage === quantPages - 1) {
-      let last = WorkItemData.pop();
-      setPage(WorkItemData.slice(numPage * 3).concat(last));
+	  setPage(WorkItemData.slice(numPage * 3));
     } else {
       setPage(WorkItemData.slice(numPage * 3, numPage * 3 + 3));
     }
